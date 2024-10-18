@@ -148,12 +148,13 @@ li{
 
 
 
-@media only screen and (min-width: 416px) and (max-width: 459px) {
+@media only screen and (min-width: 415px) and (max-width: 459px) {
   #form1 input[type='text']{
     max-width:250px;
   }
   #form2 input[type='text']{
     max-width: 325px;
+    /* margin-top: 10px; */
   }
   }
 
@@ -201,19 +202,22 @@ li{
 @media only screen and (max-width:415px) {
   h1{
     font-size: 2.5rem;
-   
+    margin-left: 8px;
   }
   #form1 input[type='text']{
     max-width: 225px;
-    margin-right: 5px;
+    margin-right: 3.5px;
   }
   #form2 input[type='text']{
-    max-width: 305px;
+    max-width: 300px;
+    margin-top: -15px;
+    margin-left: -1px;
   }
   
   ol{
     /* width: 400px; */
     width: 100%;
+    margin-left:3px;
 
   }
   #emptyTask{
@@ -227,7 +231,7 @@ li{
   }
   .add-button{
     font-size: 1.5rem;
-   padding: 10px 13px;
+   padding: 11.5px 13px 8px;
    /* margin-left: 3px; */
   }
   
@@ -273,13 +277,18 @@ li{
   #form2 input[type='text']{
     max-width: 290px;
     margin-left: 25px;
+    margin-top: -12px;
   }
   .add-button{
-    padding: 10px;
+    padding: 10.5px 8px 8px;
+    
   }
   li{
     width: 100%;
-    margin-left: 5px;
+    /* margin-left: 5px; */
+  }
+  ol{
+    margin-left: 25px;
   }
 }
 @media only screen and (max-width:371px){
